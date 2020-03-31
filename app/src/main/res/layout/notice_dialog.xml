@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#212121">
+
+    <TextView
+        android:id="@+id/titledialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận xóa sản phẩm"
+        android:padding="16dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:paddingLeft="28dp"
+        android:background="@color/colorForeign" />
+
+    <TextView
+        android:id="@+id/tv_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#fff"
+        android:text="Xóa sản phẩm khỏi giỏ hàng ?" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_cancle"
+            android:layout_height="32dp"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_radius"
+            android:text="Không"
+            android:layout_marginRight="16dp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_ok"
+            android:textAllCaps="false"
+            android:layout_height="32dp"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_radius"
+            android:text="Có"
+            android:textColor="#ffffff" />
+    </TableRow>
+</LinearLayout>
